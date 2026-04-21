@@ -1,0 +1,12 @@
+# XM1 development/optional dependencies
+# Includes everything from requirements.txt, plus useful_code extras.
+
+-r requirements.txt
+
+# Used by useful_code/batch_llm_api.py
+dashscope
+requests==2.32.3
+
+# Used by useful_code/ragas_evaluate.py
+langchain-openai==0.1.7
+ragas==0.1.9

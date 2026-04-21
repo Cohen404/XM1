@@ -1,0 +1,114 @@
+############################
+# Python
+############################
+__pycache__/
+*.py[cod]
+*$py.class
+
+############################
+# Virtual environments
+############################
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+############################
+# Jupyter Notebook
+############################
+.ipynb_checkpoints
+
+############################
+# Logs
+############################
+logs/
+*.log
+wandb/
+tensorboard/
+runs/
+
+############################
+# Model checkpoints
+############################
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.h5
+*.weights
+
+############################
+# Dataset (重要)
+############################
+data/
+datasets/
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+############################
+# Results / outputs
+############################
+outputs/
+results/
+predictions/
+visualizations/
+
+############################
+# Training cache
+############################
+.cache/
+.cache/*
+*.cache
+
+############################
+# IDE files
+############################
+.vscode/
+.idea/
+*.swp
+*.swo
+
+############################
+# System files
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# CUDA / compile artifacts
+############################
+*.so
+*.out
+build/
+dist/
+
+############################
+# PyTorch Lightning
+############################
+lightning_logs/
+
+############################
+# HuggingFace
+############################
+hf_cache/
+transformers_cache/
+*.safetensors
+
+############################
+# Conda
+############################
+*.conda
+conda-meta/
+
+############################
+# Experiment tracking
+############################
+mlruns/
+wandb/
